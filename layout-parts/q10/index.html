@@ -37,7 +37,54 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
-
+        <form>
+            <div class="wrap clearfix">
+                <div class="q10__title">
+                    <span>Form Exercise</span>
+                </div>
+                <div class="main__left clearfix">
+                    <div class="item__common">
+                        <span class="item__text item__text__required">name</span>
+                        <div class="item__contents">
+                            <input class="input__text" type="text" name="q10_1" id="name" required>
+                        </div>
+                    </div>
+                    <div class="item__common" >
+                        <span class="item__text">Sex</span>
+                        <div class="item__radio item__contents">
+                            <label class="item__pointer">
+                                <input class="item__radio" type="radio" name="q10_2" value="male">
+                                <span class="item__radio__text">male</span>
+                            </label>
+                            <label class="item__pointer">
+                                <input class="item__radio" type="radio" name="q10_3" value="famale">
+                                <span class="item__radio__text">female</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="item__common">
+                        <span class="item__text item__text__required">Email</span>
+                        <div class="item__contents">
+                            <input class="input__text" type="email" name="q10_4" placeholder="ex) hoge@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="item__common">
+                        <span class="item__text">Telephone</span>
+                        <div class="item__contents">
+                            <input class="input__text" type="text" name="tel" placeholder="ex) 08012345678">
+                        </div>
+                    </div>
+                    <div class="item__common">
+                        <label>
+                            <input class="item__submit" type="submit" name="q10_5" value="submit">
+                        </label>
+                    </div>
+                </div>
+                <div class="main__right clearfix">
+                        <textarea class="item__textarea clearfix" name="q10_6" placeholder="Please fill in the message..."></textarea>
+                </div>
+            </div>
+        </form>
         <!-- 回答はここに書いてね -->
     </div>
 </div>

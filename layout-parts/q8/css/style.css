@@ -1,5 +1,50 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.common {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 20px 0;
+}
 
+.wrap {
+  display: table;
+  table-layout: fixed;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.f__pink {
+  background-color: #fdc8b8;
+  width: 100px;
+}
+
+.v__purple {
+  background-color: #e0abd9;
+}
+
+.f__blue {
+  background-color: #b6d8ed;
+  width: 100px;
+}
+
+.wrap__bottom {
+
+}
+
+.v__yellow {
+  background-color: #e5d32e;
+  width: 100%;
+}
+
+.v__lightyellow {
+  background-color: #e4e67c;
+  width: 100%;
+}
+
+.f__green {
+  background-color: #8fdcad;
+  width: 500px;
+}
 /* 回答はここに書いてね */

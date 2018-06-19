@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q12__hukidasi {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
 
+.q12__hukidasi:before {
+  position: absolute;
+  content: '';
+  bottom: -50px;
+  left: 25px;
+  border: 25px solid transparent;
+  border-top: 25px solid #222;
+}
+
+.q12__hukidasi:after {
+  position: absolute;
+  content: '';
+  bottom: -43px;
+  left: 25px;
+  border: 25px solid transparent;
+  border-top: 25px solid #fff;
+}
 /* 回答はここに書いてね */

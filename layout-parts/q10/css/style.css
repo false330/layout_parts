@@ -1,5 +1,143 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+input, button, textarea, select {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrap {
+  background-color: #ecf1f2;
+  width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.q10__title {
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.q10__title:after {
+  border-top: 1px solid #ccc;
+  content: "";
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.main__left {
+  float: left;
+  width: 300px;
+}
+
+.item__common {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.item__text {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  margin-right: 20px;
+  line-height: 25px;
+}
+
+.item__text__required:after {
+  content: " *";
+  color: red;
+}
+
+.input__text {
+  position: relative;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.item__contents {
+  float: right;
+  width: 180px;
+}
+
+.item__pointer {
+  cursor: pointer;
+}
+
+.item__radio__text {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.item__radio__text:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+
+.item__radio:checked + .item__radio__text:after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background: #3498db;
+  border-radius: 100%;
+}
+
+.item__submit {
+  float: right;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00BCD4;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.main__right {
+  float: right;
+  margin-top: 20px;
+  width: 380px;
+}
+
+.item__textarea {
+  resize: none;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #FFF;
+  font-size: 12px;
+  width: 100%;
+  height: 203px;
+}
 
 /* 回答はここに書いてね */
