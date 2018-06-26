@@ -4,21 +4,21 @@
 .q3__wrap {
   width: 100%;
   table-layout: fixed;
-  margin: 0 auto;
   text-align: center;
+}
+
+.q3__tr td {
+  padding: 10px;
   font-size: 16px;
   line-height: 22px;
 }
 
-.q3__cell {
+.q3__tr th {
   padding: 10px;
-  border: solid #dedede 1px;
-}
-
-.q3__wrap .q3__tr:first-child,.q3__tr .q3__cell:first-child {
   font-size: 18px;
   line-height: 26px;
   color: white;
+  border: solid #dedede 1px;
   background-color: #2244aa;
   }
 
