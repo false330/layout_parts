@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.global-small {
+.q6__wrap {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.global-small {
   height: 26px;
   padding: 0 15px;
   border-radius: 3px;
@@ -12,9 +15,6 @@
 }
 
 .global-middle {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   height: 32px;
   padding: 0 20px;
   border-radius: 5px;
@@ -22,9 +22,6 @@
 }
 
 .global-large {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   height: 38px;
   padding: 0 25px;
   border-radius: 7px;
